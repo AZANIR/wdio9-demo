@@ -1,0 +1,260 @@
+ 🤩 Testomat.io Reporter v1.6.13
+[TESTOMATIO] 🪲. Debug created:
+[TESTOMATIO] Pipes: Testomatio Reporter, Debug Reporter
+[TESTOMATIO] Testomatio Reporter v1.6.13
+[TESTOMATIO] 🚀 Running wdio run ./wdio.conf.ts
+2025-02-16T17:35:45.983Z @testomatio/reporter:client Creating run...
+[TESTOMATIO] S3 credentials obtained from Testomat.io...
+[TESTOMATIO] 📊 Report created. Report ID: 252fd8ee
+2025-02-16T17:35:46.519Z @testomatio/reporter:uploader S3 uploader is enabled
+2025-02-16T17:35:46.521Z @testomatio/reporter:uploader {
+  S3_ENDPOINT: 'https://ams3.digitaloceanspaces.com',
+  S3_REGION: 'ams3',
+  S3_BUCKET: 'testomatio-artifacts',
+  S3_ACCESS_KEY_ID: '***',
+  S3_SECRET_ACCESS_KEY: '***',
+  S3_SESSION_TOKEN: undefined,
+  S3_FORCE_PATH_STYLE: undefined,
+  TESTOMATIO_DISABLE_ARTIFACTS: undefined,
+  TESTOMATIO_PRIVATE_ARTIFACTS: '1',
+  TESTOMATIO_ARTIFACT_MAX_SIZE_MB: undefined
+}
+
+Execution of 5 workers started at 2025-02-16T17:36:06.962Z
+
+[0-1] [TESTOMATIO] 🪲. Debug created:
+[0-1] [TESTOMATIO] Pipes: Testomatio Reporter, Debug Reporter
+[0-1] [TESTOMATIO] Testomatio Reporter v1.6.13
+[0-0] [TESTOMATIO] 🪲. Debug created:
+[0-0] [TESTOMATIO] Pipes: Testomatio Reporter, Debug Reporter
+[0-0] [TESTOMATIO] Testomatio Reporter v1.6.13
+[0-2] [TESTOMATIO] 🪲. Debug created:
+[0-2] [TESTOMATIO] Pipes: Testomatio Reporter, Debug Reporter
+[0-2] [TESTOMATIO] Testomatio Reporter v1.6.13
+[0-0] RUNNING in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/checkout/form.spec.ts
+[0-1] RUNNING in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/checkout/ui.spec.ts
+[0-2] RUNNING in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/randomFailures.spec.ts
+[0-2] Error in "Random Failure Tests @S4a8c1266.random failure test 1 @Random @T8469630b"
+Error: Unknown error in processing request
+    at maybeFail (D:\QA_A\Testomat\domo-examples\WDIO9\test\helpers\RandomFailureHelper.ts:11:11)
+    at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\randomFailures.spec.ts:14:5)
+    at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1017:10)
+    at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:34)
+[0-2] FAILED in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/randomFailures.spec.ts
+[0-1] Error in "Checkout UI Tests @S57513325.should have state select options @UI @Checkout @Td4ede6f6"
+Error: Data validation error: invalid input
+    at maybeFail (D:\QA_A\Testomat\domo-examples\WDIO9\test\helpers\RandomFailureHelper.ts:11:11)
+    at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\checkout\ui.spec.ts:43:5)
+    at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+    at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+[0-1] FAILED in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/checkout/ui.spec.ts
+[0-3] [TESTOMATIO] 🪲. Debug created:
+[0-3] [TESTOMATIO] Pipes: Testomatio Reporter, Debug Reporter
+[0-3] [TESTOMATIO] Testomatio Reporter v1.6.13
+[0-3] RUNNING in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/todo/add_remove.spec.ts
+[0-4] [TESTOMATIO] 🪲. Debug created:
+[0-4] [TESTOMATIO] Pipes: Testomatio Reporter, Debug Reporter
+[0-4] [TESTOMATIO] Testomatio Reporter v1.6.13
+[0-0] Error in "Checkout Form Tests @S1c73cab5.should submit the form successfully @Form @Checkout @T9d742a2d"
+Error: Option with text "New York" not found.
+    at Element.selectByVisibleText (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\webdriverio\build\node.js:7069:11)
+    at Element.wrapCommandFn (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:893:23)
+    at Element.elementErrorHandlerCallbackFn (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\webdriverio\build\node.js:8215:24)
+    at Element.wrapCommandFn (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:893:23)
+    at CheckoutPage.fillForm (D:\QA_A\Testomat\domo-examples\WDIO9\test\pageobjects\CheckoutPage.ts:40:5)
+    at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\checkout\form.spec.ts:41:5)
+    at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+    at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+[0-4] RUNNING in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/todo/ui.spec.ts
+[0-0] FAILED in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/checkout/form.spec.ts
+[0-4] TESTOMATIO: tstmt_F3gwOjrM213mthGC8IoxO01ISzWyHixpfg1739721137
+[0-4] TESTOMATIO: tstmt_F3gwOjrM213mthGC8IoxO01ISzWyHixpfg1739721137
+[0-4] TESTOMATIO: tstmt_F3gwOjrM213mthGC8IoxO01ISzWyHixpfg1739721137
+[0-3] Error in "TodoMVC Add/Remove Tests @S3fee112a.should delete a todo item @Todo @Functional @T92e4a0b6"
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 3
+    at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\todo\add_remove.spec.ts:48:43)
+    at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+    at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+[0-4] TESTOMATIO: tstmt_F3gwOjrM213mthGC8IoxO01ISzWyHixpfg1739721137
+[0-4] Error in "TodoMVC UI Tests @Sbf061784.should show the clear completed button after completing a task @UI @Regression @T1fba6311"
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: {}
+    at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\todo\ui.spec.ts:57:57)
+    at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+    at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+[0-4] TESTOMATIO: tstmt_F3gwOjrM213mthGC8IoxO01ISzWyHixpfg1739721137
+[0-3] FAILED in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/todo/add_remove.spec.ts
+[0-4] Error in "TodoMVC UI Tests @Sbf061784.should maintain UI structure when adding multiple todos @UI @T5c2069d1"
+Error: Random network error occurred
+    at maybeFail (D:\QA_A\Testomat\domo-examples\WDIO9\test\helpers\RandomFailureHelper.ts:11:11)
+    at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\todo\ui.spec.ts:68:5)
+    at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+    at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+[0-4] TESTOMATIO: tstmt_F3gwOjrM213mthGC8IoxO01ISzWyHixpfg1739721137
+[0-4] Error in "TodoMVC UI Tests @Sbf061784.should not break UI when deleting a todo @UI @Td9336491"
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: -1
+Received: 0
+    at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\todo\ui.spec.ts:78:43)
+    at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+    at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+[0-4] FAILED in chrome - file:///D:/QA_A/Testomat/domo-examples/WDIO9/test/todo/ui.spec.ts
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 133.0.6943.98 windows #0-2] Running: chrome (v133.0.6943.98) on windows
+[chrome 133.0.6943.98 windows #0-2] Session ID: ac173297738c6a8aec72d3e44b0b9d3b
+[chrome 133.0.6943.98 windows #0-2]
+[chrome 133.0.6943.98 windows #0-2] » \test\randomFailures.spec.ts
+[chrome 133.0.6943.98 windows #0-2] Random Failure Tests @S4a8c1266
+[chrome 133.0.6943.98 windows #0-2]    ✖ random failure test 1 @Random @T8469630b
+[chrome 133.0.6943.98 windows #0-2]    ✓ random failure test 2 @Random @T707a4197
+[chrome 133.0.6943.98 windows #0-2]
+[chrome 133.0.6943.98 windows #0-2] 1 passing (1.3s)
+[chrome 133.0.6943.98 windows #0-2] 1 failing
+[chrome 133.0.6943.98 windows #0-2]
+[chrome 133.0.6943.98 windows #0-2] 1) Random Failure Tests @S4a8c1266 random failure test 1 @Random @T8469630b
+[chrome 133.0.6943.98 windows #0-2] Unknown error in processing request
+[chrome 133.0.6943.98 windows #0-2] Error: Unknown error in processing request
+[chrome 133.0.6943.98 windows #0-2]     at maybeFail (D:\QA_A\Testomat\domo-examples\WDIO9\test\helpers\RandomFailureHelper.ts:11:11)
+[chrome 133.0.6943.98 windows #0-2]     at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\randomFailures.spec.ts:14:5)
+[chrome 133.0.6943.98 windows #0-2]     at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1017:10)
+[chrome 133.0.6943.98 windows #0-2]     at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:34)
+------------------------------------------------------------------
+[chrome 133.0.6943.98 windows #0-1] Running: chrome (v133.0.6943.98) on windows
+[chrome 133.0.6943.98 windows #0-1] Session ID: baeb47fd6438cc9a19cc6b462ebe6df6
+[chrome 133.0.6943.98 windows #0-1]
+[chrome 133.0.6943.98 windows #0-1] » \test\checkout\ui.spec.ts
+[chrome 133.0.6943.98 windows #0-1] Checkout UI Tests @S57513325
+[chrome 133.0.6943.98 windows #0-1]    ✓ should display the checkout form @UI @Checkout @T02196791
+[chrome 133.0.6943.98 windows #0-1]    ✓ should have a submit button @UI @Checkout @T4278d951
+[chrome 133.0.6943.98 windows #0-1]    ✓ should have country select options @UI @Checkout @Tcee6d39c
+[chrome 133.0.6943.98 windows #0-1]    ✖ should have state select options @UI @Checkout @Td4ede6f6
+[chrome 133.0.6943.98 windows #0-1]    ✓ should update UI elements on focus @UI @Checkout @T801ce4d6
+[chrome 133.0.6943.98 windows #0-1]
+[chrome 133.0.6943.98 windows #0-1] 4 passing (3.5s)
+[chrome 133.0.6943.98 windows #0-1] 1 failing
+[chrome 133.0.6943.98 windows #0-1]
+[chrome 133.0.6943.98 windows #0-1] 1) Checkout UI Tests @S57513325 should have state select options @UI @Checkout @Td4ede6f6
+[chrome 133.0.6943.98 windows #0-1] Data validation error: invalid input
+[chrome 133.0.6943.98 windows #0-1] Error: Data validation error: invalid input
+[chrome 133.0.6943.98 windows #0-1]     at maybeFail (D:\QA_A\Testomat\domo-examples\WDIO9\test\helpers\RandomFailureHelper.ts:11:11)
+[chrome 133.0.6943.98 windows #0-1]     at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\checkout\ui.spec.ts:43:5)
+[chrome 133.0.6943.98 windows #0-1]     at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+[chrome 133.0.6943.98 windows #0-1]     at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+------------------------------------------------------------------
+[chrome 133.0.6943.98 windows #0-0] Running: chrome (v133.0.6943.98) on windows
+[chrome 133.0.6943.98 windows #0-0] Session ID: 86b5cd3d08282b8a61e7eb03f29edbd9
+[chrome 133.0.6943.98 windows #0-0]
+[chrome 133.0.6943.98 windows #0-0] » \test\checkout\form.spec.ts
+[chrome 133.0.6943.98 windows #0-0] Checkout Form Tests @S1c73cab5
+[chrome 133.0.6943.98 windows #0-0]    ✓ should fill the form with valid data @Form @Checkout @T8fbcec6a
+[chrome 133.0.6943.98 windows #0-0]    ✓ should not allow empty first name @Form @Checkout @Validation @T42ebd463
+[chrome 133.0.6943.98 windows #0-0]    ✓ should not allow invalid email @Form @Checkout @Validation @Tadf94695
+[chrome 133.0.6943.98 windows #0-0]    ✖ should submit the form successfully @Form @Checkout @T9d742a2d
+[chrome 133.0.6943.98 windows #0-0]    ✓ should handle form submission error gracefully @Form @Checkout @Error @Te11c7947
+[chrome 133.0.6943.98 windows #0-0]
+[chrome 133.0.6943.98 windows #0-0] 4 passing (6.9s)
+[chrome 133.0.6943.98 windows #0-0] 1 failing
+[chrome 133.0.6943.98 windows #0-0]
+[chrome 133.0.6943.98 windows #0-0] 1) Checkout Form Tests @S1c73cab5 should submit the form successfully @Form @Checkout @T9d742a2d
+[chrome 133.0.6943.98 windows #0-0] Option with text "New York" not found.
+[chrome 133.0.6943.98 windows #0-0] Error: Option with text "New York" not found.
+[chrome 133.0.6943.98 windows #0-0]     at Element.selectByVisibleText (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\webdriverio\build\node.js:7069:11)
+[chrome 133.0.6943.98 windows #0-0]     at Element.wrapCommandFn (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:893:23)
+[chrome 133.0.6943.98 windows #0-0]     at Element.elementErrorHandlerCallbackFn (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\webdriverio\build\node.js:8215:24)
+[chrome 133.0.6943.98 windows #0-0]     at Element.wrapCommandFn (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:893:23)
+[chrome 133.0.6943.98 windows #0-0]     at CheckoutPage.fillForm (D:\QA_A\Testomat\domo-examples\WDIO9\test\pageobjects\CheckoutPage.ts:40:5)
+[chrome 133.0.6943.98 windows #0-0]     at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\checkout\form.spec.ts:41:5)
+[chrome 133.0.6943.98 windows #0-0]     at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+[chrome 133.0.6943.98 windows #0-0]     at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+------------------------------------------------------------------
+[chrome 133.0.6943.98 windows #0-3] Running: chrome (v133.0.6943.98) on windows
+[chrome 133.0.6943.98 windows #0-3] Session ID: bf95311db773818fa4029496841b24ff
+[chrome 133.0.6943.98 windows #0-3]
+[chrome 133.0.6943.98 windows #0-3] » \test\todo\add_remove.spec.ts
+[chrome 133.0.6943.98 windows #0-3] TodoMVC Add/Remove Tests @S3fee112a
+[chrome 133.0.6943.98 windows #0-3]    ✓ should add a new todo item @Todo @Functional @T878be988
+[chrome 133.0.6943.98 windows #0-3]    ✓ should add multiple todo items @Todo @Functional @T658a9e4f
+[chrome 133.0.6943.98 windows #0-3]    ✓ should toggle a todo item as completed @Todo @Functional @T6663c14b
+[chrome 133.0.6943.98 windows #0-3]    ✖ should delete a todo item @Todo @Functional @T92e4a0b6
+[chrome 133.0.6943.98 windows #0-3]    ✓ should clear completed todos @Todo @Functional @T7ecc2164
+[chrome 133.0.6943.98 windows #0-3]
+[chrome 133.0.6943.98 windows #0-3] 4 passing (3.3s)
+[chrome 133.0.6943.98 windows #0-3] 1 failing
+[chrome 133.0.6943.98 windows #0-3]
+[chrome 133.0.6943.98 windows #0-3] 1) TodoMVC Add/Remove Tests @S3fee112a should delete a todo item @Todo @Functional @T92e4a0b6
+[chrome 133.0.6943.98 windows #0-3] expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 3
+[chrome 133.0.6943.98 windows #0-3] Error: expect(received).toBe(expected) // Object.is equality
+[chrome 133.0.6943.98 windows #0-3]
+[chrome 133.0.6943.98 windows #0-3] Expected: 2
+[chrome 133.0.6943.98 windows #0-3] Received: 3
+[chrome 133.0.6943.98 windows #0-3]     at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\todo\add_remove.spec.ts:48:43)
+[chrome 133.0.6943.98 windows #0-3]     at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+[chrome 133.0.6943.98 windows #0-3]     at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+------------------------------------------------------------------
+[chrome 133.0.6943.98 windows #0-4] Running: chrome (v133.0.6943.98) on windows
+[chrome 133.0.6943.98 windows #0-4] Session ID: 77ec4c8f730c14f493c4f12f6f439d1b
+[chrome 133.0.6943.98 windows #0-4]
+[chrome 133.0.6943.98 windows #0-4] » \test\todo\ui.spec.ts
+[chrome 133.0.6943.98 windows #0-4] TodoMVC UI Tests @Sbf061784
+[chrome 133.0.6943.98 windows #0-4]    ✓ should display the input field for new todos @UI @Smoke @Tda456756
+[chrome 133.0.6943.98 windows #0-4]    ✓ should display an empty todo list initially @UI @Regression @Tdc99996f
+[chrome 133.0.6943.98 windows #0-4]    ✓ should allow adding a new todo and display it @UI @T85825f3c
+[chrome 133.0.6943.98 windows #0-4]    ✖ should show the clear completed button after completing a task @UI @Regression @T1fba6311
+[chrome 133.0.6943.98 windows #0-4]    ✖ should maintain UI structure when adding multiple todos @UI @T5c2069d1
+[chrome 133.0.6943.98 windows #0-4]    ✖ should not break UI when deleting a todo @UI @Td9336491
+[chrome 133.0.6943.98 windows #0-4]
+[chrome 133.0.6943.98 windows #0-4] 3 passing (2.9s)
+[chrome 133.0.6943.98 windows #0-4] 3 failing
+[chrome 133.0.6943.98 windows #0-4]
+[chrome 133.0.6943.98 windows #0-4] 1) TodoMVC UI Tests @Sbf061784 should show the clear completed button after completing a task @UI @Regression @T1fba6311
+[chrome 133.0.6943.98 windows #0-4] expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: {}
+[chrome 133.0.6943.98 windows #0-4] Error: expect(received).toBe(expected) // Object.is equality
+[chrome 133.0.6943.98 windows #0-4]
+[chrome 133.0.6943.98 windows #0-4] Expected: true
+[chrome 133.0.6943.98 windows #0-4] Received: {}
+[chrome 133.0.6943.98 windows #0-4]     at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\todo\ui.spec.ts:57:57)
+[chrome 133.0.6943.98 windows #0-4]     at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+[chrome 133.0.6943.98 windows #0-4]     at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+[chrome 133.0.6943.98 windows #0-4]
+[chrome 133.0.6943.98 windows #0-4] 2) TodoMVC UI Tests @Sbf061784 should maintain UI structure when adding multiple todos @UI @T5c2069d1
+[chrome 133.0.6943.98 windows #0-4] Random network error occurred
+[chrome 133.0.6943.98 windows #0-4] Error: Random network error occurred
+[chrome 133.0.6943.98 windows #0-4]     at maybeFail (D:\QA_A\Testomat\domo-examples\WDIO9\test\helpers\RandomFailureHelper.ts:11:11)
+[chrome 133.0.6943.98 windows #0-4]     at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\todo\ui.spec.ts:68:5)
+[chrome 133.0.6943.98 windows #0-4]     at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+[chrome 133.0.6943.98 windows #0-4]     at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+[chrome 133.0.6943.98 windows #0-4]
+[chrome 133.0.6943.98 windows #0-4] 3) TodoMVC UI Tests @Sbf061784 should not break UI when deleting a todo @UI @Td9336491
+[chrome 133.0.6943.98 windows #0-4] expect(received).toBe(expected) // Object.is equality
+
+Expected: -1
+Received: 0
+[chrome 133.0.6943.98 windows #0-4] Error: expect(received).toBe(expected) // Object.is equality
+[chrome 133.0.6943.98 windows #0-4]
+[chrome 133.0.6943.98 windows #0-4] Expected: -1
+[chrome 133.0.6943.98 windows #0-4] Received: 0
+[chrome 133.0.6943.98 windows #0-4]     at Context.<anonymous> (D:\QA_A\Testomat\domo-examples\WDIO9\test\todo\ui.spec.ts:78:43)
+[chrome 133.0.6943.98 windows #0-4]     at Context.executeAsync (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1016:20)
+[chrome 133.0.6943.98 windows #0-4]     at Context.testFrameworkFnWrapper (D:\QA_A\Testomat\domo-examples\WDIO9\node_modules\@wdio\utils\build\index.js:1087:14)
+
+
+Spec Files:	 0 passed, 5 failed, 5 total (100% completed) in 00:00:21  
+
+[TESTOMATIO] 🔴 Runner exited with 1
+2025-02-16T17:36:28.915Z @testomatio/reporter:client Updating run status...
+[TESTOMATIO] 🪲. Debug Saved to C:\Users\eleon\AppData\Local\Temp\testomatio.debug.1739727345978.json
+[TESTOMATIO] 📊 Report Saved. Report URL: https://beta.testomat.io/projects/wdio9/runs/252fd8ee/report

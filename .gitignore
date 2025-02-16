@@ -1,0 +1,5 @@
+node_modules
+allure-results
+allure-report
+# .env should be here to prevent committing sensitive data
+.env 
