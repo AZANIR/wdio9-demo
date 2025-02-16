@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
   # Uncomment to run the workflow on manual trigger
   # workflow_dispatch:
   #   inputs:
